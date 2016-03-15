@@ -3,4 +3,4 @@ Currently defined in an IETF draft, the [BagIt specification](https://tools.ietf
 
 Materials in this repo provide supplemental and installation information related to the [in-person event on April 28, 2016](http://ndsr.nycdigital.org/ndsrsymposium/) at the Brooklyn Historical Society in Brooklyn, NY. 
 
-[DURASPACE](https://wiki.duraspace.org/display/DPNC/BagIt+Specification) has a simple unpacking of the specification.
+Check out [LoC's bagit-python page](http://libraryofcongress.github.io/bagit-python/) and [DURASPACE](https://wiki.duraspace.org/display/DPNC/BagIt+Specification) has a simple unpacking of the specification.
