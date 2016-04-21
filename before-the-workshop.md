@@ -8,7 +8,7 @@ Download the zip package of:
 - instructions
 - sample scripts
 
-## 2. Install the BagIt (python build)
+## 2. Install BagIt (python build)
 Read and follow the [install directions](https://github.com/kgrons/ndsr-2016-bagit/blob/master/install-directions.md) so that you have BagIt ready to work.
 
 ## 3. Ask Questions!
