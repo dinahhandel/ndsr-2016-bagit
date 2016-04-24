@@ -41,7 +41,7 @@ Instructions for creating a BagIt bag with the Python build.
 ![bag_01 structure](https://github.com/kgrons/ndsr-2016-bagit/blob/master/bag_01_structure.png "Bag_01 Structure")
 
 2. Open each file and the data directory. 
-       - **bag-info.txt** : Report summary of the bag. Includes size of the bag,  bag create date, and the number of files in the bag by invoking this command
+       - **bag-info.txt** : Report summary of the bag. Includes size of the bag,  bag create date, and the number of files in the bag.
        - **bagit.txt** : Bag Declaration. It contains information about what version of BagIt was used and the encoding mechanism. What version of BagIt are you running on your machine?
        - **data subdirectory** : Data directory or ‘payload’ of the existing files. What is contained in your newly created bag? It should look familiar... 
        - **manifest-md5.txt** : Essential for validating the bag is the md5 manifest, which is an inventory of files in the bag and their file paths and associated md5 checksums.
