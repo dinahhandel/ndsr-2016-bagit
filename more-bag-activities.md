@@ -7,7 +7,9 @@ Recommendations for activities and tasks to increase comfort with using the Pyth
 
 2. Add your phone number, a description, and a unique identifier when you create a new bag using the command line. 
 - Options are structured like:
-  `--optionName 'The information you want to add to the bag-info.txt file'
+
+  `--optionName 'The information you want to add to the bag-info.txt file'`
+
 So a command would look like:
   `bagit.py --contact-name 'Kathryn Gronsbell' --contact-email 'kgronsbell at gmail dot com' --external-description 'There may be something a little off about this bag...' /Users/kathryngronsbell/Desktop/NDSR_BagIt_sample_02`
 
