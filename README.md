@@ -4,3 +4,9 @@ Currently defined in an IETF draft, the [BagIt specification](https://tools.ietf
 Materials in this repo provide supplemental and installation information related to the __NDSR-NY Preservation Week Symposium__, an [in-person event on April 28, 2016](http://ndsr.nycdigital.org/ndsrsymposium/) at the Brooklyn Historical Society in Brooklyn, NY. 
 
 Check out [LoC's bagit-python page](http://libraryofcongress.github.io/bagit-python/) and  [DURASPACE](https://wiki.duraspace.org/display/DPNC/BagIt+Specification)'s simple unpacking of the BagIt specification.
+
+## RECOMMENDED TUTORIAL ORDER
+1. [Installation and sample materials](https://github.com/kgrons/ndsr-2016-bagit/blob/master/install-directions.md)
+2. [Create bags](https://github.com/kgrons/ndsr-2016-bagit/blob/master/create-bag.md)
+3. [Validate bags](https://github.com/kgrons/ndsr-2016-bagit/blob/master/validate-bag.md)
+4. [Additional exercises](https://github.com/kgrons/ndsr-2016-bagit/blob/master/more-bag-activities.md)
