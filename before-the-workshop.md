@@ -5,8 +5,7 @@ Below are # things to do before Thursday, April 28th so that you can fully parti
 ## 1. Download the sample materials
 Download the zip package of:
 - sample data to bag
-- instructions
-- sample scripts
+- sample script
 
 ## 2. Install BagIt (python build)
 Read and follow the [install directions](https://github.com/kgrons/ndsr-2016-bagit/blob/master/install-directions.md) so that you have BagIt ready to work.
