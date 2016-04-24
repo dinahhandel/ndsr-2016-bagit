@@ -11,6 +11,7 @@ Recommendations for activities and tasks to increase comfort with using the Pyth
   `--optionName 'The information you want to add to the bag-info.txt file'`
 
 So a command would look like:
+
   `bagit.py --contact-name 'Kathryn Gronsbell' --contact-email 'kgronsbell at gmail dot com' --external-description 'There may be something a little off about this bag...' /Users/kathryngronsbell/Desktop/NDSR_BagIt_sample_02`
 
 3. Look at the _bag-info.txt_ in the new _NDSR_BagIt_sample_03_. 
