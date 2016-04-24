@@ -19,6 +19,14 @@ So a command would look like:
 
 On the Library of Congress' [bagit-python page](https://github.com/LibraryOfCongress/bagit-python#library-usage), they include examples of Python scripts to accomplish certain tasks. 
 
-cd to dir
- 
+1. Included in the sample bag is _bagmetadata_update.py_, which is a Python script cribbed from the bagit-python page linked above. It will change the metadata in the _bag-info.txt_ by using the "info" property on a bag.
 
+3. Invoke the provided Python script. 
+
+  `python3 [drag and drop bagmetadata_update.py] [drag and drop NDSR_BagIt_samples_03]`
+
+4. Open the _bag-info.txt_ in _NDSR_BagIt_samples_03_. Does it match the example one below? 
+
+![bag metadata update](https://github.com/kgrons/ndsr-2016-bagit/blob/master/updatemetadata_example.png "Bag Metadata Update")
+
+5. Open _bagmetadata_update.py_. Change the values between the '  ' characters in lines 9 and 10. You can use any text editor (NOT MICROSOFT WORD). Save the file with the new values. Run the command from Step 3 again, and check the updated _bag-info.txt_. 
