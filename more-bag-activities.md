@@ -22,6 +22,8 @@ So a command would look like:
 
 On the Library of Congress' [bagit-python page](https://github.com/LibraryOfCongress/bagit-python#library-usage), they include examples of Python scripts to accomplish certain tasks. 
 
+To do this exercise, you will need to be running atleast **[Python 3](https://www.python.org/downloads/)**. You can find out what version of Python you have by typing `python --version` into Terminal. If you think you might have Python 3 already installed, try typing `python3 --version`. 
+
 1. Included in the sample bag is _bagmetadata_update.py_, which is a Python script cribbed from the bagit-python page linked above. It will change the metadata in the _bag-info.txt_ by using the "info" property on a bag.
 
 3. Invoke the provided Python script. 
