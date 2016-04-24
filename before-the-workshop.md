@@ -3,7 +3,7 @@
 Below are # things to do before Thursday, April 28th so that you can fully participate in the BagIt session at the NDSR-NYC Symposium.
 
 ## 1. Download the sample materials
-Download the zip package of:
+Download the [zip package](https://github.com/kgrons/ndsr-2016-bagit/blob/master/NDSR-NYC_BagIt.zip) of:
 - sample data to bag
 - sample script
 
