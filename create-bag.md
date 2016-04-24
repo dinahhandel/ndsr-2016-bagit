@@ -27,7 +27,7 @@ Instructions for creating a BagIt bag with the Python build.
 4. It's time to create the bag, or package your data into a bag _payload_. In Terminal, enter the command below. **IMPORTANT: This will REPLACE the folder on your Desktop with a BagIt-structured bag.** This action is referred to as "bag in place", or replacing a data source with a bag that adheres to the BagIt specifciation.  
 
         - `bagit.py --contact-name '[FirstName LastName]' [directory of sample files]`
-        - An example of what this may look like in Terminal:
+
 ![Create bag command example](https://github.com/kgrons/ndsr-2016-bagit/blob/master/createbag_example.png "Create bag command example")
 
 5. Congratulations! You made a bag! :tada:
