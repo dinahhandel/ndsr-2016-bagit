@@ -30,3 +30,10 @@ On the Library of Congress' [bagit-python page](https://github.com/LibraryOfCong
 ![bag metadata update](https://github.com/kgrons/ndsr-2016-bagit/blob/master/updatemetadata_example.png "Bag Metadata Update")
 
 5. Open _bagmetadata_update.py_. Change the values between the '  ' characters in lines 9 and 10. You can use any text editor (NOT MICROSOFT WORD). Save the file with the new values. Run the command from Step 3 again, and check the updated _bag-info.txt_. 
+
+## MESS WITH YOUR BAGS
+1. Create a bag with copied files from your own materials. **REMEMBER, YOU WILL BAG-IN-PLACE WITH THE PYTHON BAGIT BUILD. Use copies of your data!**
+
+2. In the bag's data payload, modify text or image files. Delete a few payload files. Modify information in the generated BagIt text files (eg. _BagIt.txt_). 
+
+3. Validate the bag. What kind of error messages do you get? What do they mean? 
