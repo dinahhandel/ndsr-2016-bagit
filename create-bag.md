@@ -4,8 +4,8 @@ Instructions for creating a BagIt bag with the Python build.
 
 ## BEFORE YOU BEGIN
 
-- You installed the Python BagIt module.
-- You downloaded the zip package of samples and resources. Save **A COPY** of the _NDSR_BagIt_samples_01_ folder on your Desktop. (Leave the downloaded zipped version in your Downloads folder.)
+- You [installed Python BagIt](install-directions.md).
+- You downloaded the [zip package of samples and resources](https://github.com/kgrons/ndsr-2016-bagit/blob/master/NDSR-NYC_BagIt.zip). Save **A COPY** of the _NDSR_BagIt_samples_01_ folder on your Desktop. (Leave the downloaded zipped version in your Downloads folder.)
 
 ## CREATING BAGS WITH BAGIT ON THE COMMAND LINE
 
