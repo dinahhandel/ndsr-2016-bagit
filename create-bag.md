@@ -27,12 +27,24 @@ Instructions for creating a BagIt bag with the Python build.
 4. It's time to create the bag, or package your data into a bag _payload_. In Terminal, enter the command below. **IMPORTANT: This will REPLACE the folder on your Desktop with a BagIt-structured bag.** This action is referred to as "bag in place", or replacing a data source with a bag that adheres to the BagIt specifciation.  
 
         - `bagit.py --contact-name '[FirstName LastName]' [directory of sample files]`
+        - An example of what this may look like in Terminal:
+![Create bag command example](https://github.com/kgrons/ndsr-2016-bagit/blob/master/createbag_example.png "Create bag command example")
 
 5. Congratulations! You made a bag! :tada:
+
+6. Look at the processing log in Terminal below your command from Step 4. What did the _BagIt.py_ script do? 
+       - It created a payload directory, moved existing data, and wrote the text files required in the BagIt spec.
 
 ## WHAT'S IN YOUR :pouch:?
 
 1. Time to open up the bag and see what's inside. You can use the commands you tried in Step 3, or simply double click the text files from the Finder window. What you should see:
 ![bag_01 structure](https://github.com/kgrons/ndsr-2016-bagit/blob/master/bag_01_structure.png "Bag_01 Structure")
+
+2. Open each file and the data directory. 
+       - **bag-info.txt** : Report summary of the bag. Includes size of the bag,  bag create date, and the number of files in the bag by invoking this command
+       - **bagit.txt** : Bag Declaration. It contains information about what version of BagIt was used and the encoding mechanism. What version of BagIt are you running on your machine?
+       - **data subdirectory** : Data directory or ‘payload’ of the existing files. What is contained in your newly created bag? It should look familiar... 
+       - **manifest-md5.txt** : Essential for validating the bag is the md5 manifest, which is an inventory of files in the bag and their file paths and associated md5 checksums.
+       - **tagmanifest-md5.txt** : Inventory of information files (not the payload) and associated checksums. This is essential in ensuring the metadata has not been corrupted during bagging. 
 
 
