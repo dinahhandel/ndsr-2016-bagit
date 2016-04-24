@@ -24,6 +24,14 @@ From the [BagIt spec](https://tools.ietf.org/html/draft-kunze-bagit-13#section-3
 
 ![Validate bag command example](https://github.com/kgrons/ndsr-2016-bagit/blob/master/validatebag_example.png "Validate bag command example")
 
-2. Is your bag valid? I hope so! It’s official - the bag contains files consistent with the original files and appropriately formed. Congratulations on your first bag validation! :pouch::white_check_mark:
+2. Is your bag valid? I hope so! The bag should contain files consistent with the original files and that are appropriately formed. Congratulations on your first bag validation! :pouch::white_check_mark:
+
+3. Try to validate a bag provided to you. Run the validation command again but this time on _NDSR_BagIt_sample_02_. 
+
+4. What message was printed in Terminal? Was it _NDSR_BagIt_sample_02 is invalid: Oxum error.  Found 3 files and 613223 bytes on disk; expected 3 files and 613217 bytes._? 
+   - That's because this bag's payload had been modified. Take a peek in the _t_ file. The text in this file has been changed, which BagIt recognized as a byte different of 6 bytes. No difference too small for BagIt to catch! 
+
+5. I have to be honest with you - I threw you another curveball! Open the _tagmanifest-md5.txt_ file in _NDSR_BagIt_sample_02_. There's something in there that shouldn't be. But why didn't the validation error tell you that?
+   - According the [BagIt spec](https://tools.ietf.org/html/draft-kunze-bagit-13#section-3), "tag files that do not appear in a tag manifest can be modified, added to, or removed from a bag without impacting the completeness or validity of the bag". 
 
 
