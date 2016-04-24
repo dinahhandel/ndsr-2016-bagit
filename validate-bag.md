@@ -23,5 +23,6 @@ From the [BagIt spec](https://tools.ietf.org/html/draft-kunze-bagit-13#section-3
 ## VALIDATING A BAG
 1. In Terminal, enter this command:
         `bagit.py --validate [drag and drop existing bag]`
-
+        - An example of what this may look like in Terminal:
+![Validate bag command example](https://github.com/kgrons/ndsr-2016-bagit/blob/master/validate  bag_example.png "Validate bag command example")
 
