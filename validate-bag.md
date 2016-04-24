@@ -14,15 +14,17 @@ From the [BagIt spec](https://tools.ietf.org/html/draft-kunze-bagit-13#section-3
    5.  Every element present MUST comply with this specification.
 
 **A _valid_ bag** MUST have the following attributes:
-
-   1.  The bag MUST be complete.
+   1.  The bag MUST be complete
    2.  Every CHECKSUM in every payload manifest and tag manifest can be sucessfully verified against the contents of its corresponding FILENAME.
 
-   Tag files that do not appear in a tag manifest can be modified, added to, or removed from a bag without impacting the completeness or validity of the bag.
-
 ## VALIDATING A BAG
-1. In Terminal, enter this command:
-        `bagit.py --validate [drag and drop existing bag]`
-        - An example of what this may look like in Terminal:
-![Validate bag command example](https://github.com/kgrons/ndsr-2016-bagit/blob/master/validate  bag_example.png "Validate bag command example")
+1. Validate the bag you created. In Terminal, enter this command:
+
+          - `bagit.py --validate [drag and drop existing bag]`
+          
+          - An example of what this may look like in Terminal:
+![Validate bag command example](https://github.com/kgrons/ndsr-2016-bagit/blob/master/validatebag_example.png "Validate bag command example")
+
+2. Is your bag valid? I hope so! It’s official - the bag contains files consistent with the original files and appropriately formed. Congratulations on your first bag validation! :pouch::white_check_mark:
+
 
