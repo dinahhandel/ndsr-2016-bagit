@@ -29,7 +29,10 @@ Instructions for creating a BagIt bag with the Python build.
         - `bagit.py --contact-name '[FirstName LastName]' [directory of sample files]`
 
 5. Congratulations! You made a bag! :tada:
-6. Time to open up the bag and see what's inside. You can use the commands you tried in Step 3, or simply double click the text files from the Finder window. What you should see:
-![bag_01 structure](https://github.com/n48.png "Bag_01 Structure")
+
+## WHAT'S IN YOUR :pouch:?
+
+1. Time to open up the bag and see what's inside. You can use the commands you tried in Step 3, or simply double click the text files from the Finder window. What you should see:
+![bag_01 structure](https://github.com/kgrons/ndsr-2016-bagit/blob/master/bag_01_structure.png "Bag_01 Structure")
 
 
