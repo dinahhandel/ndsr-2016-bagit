@@ -48,3 +48,4 @@ Instructions for creating a BagIt bag with the Python build.
        - **tagmanifest-md5.txt** : Inventory of information files (not the payload) and associated checksums. This is essential in ensuring the metadata has not been corrupted during bagging. 
 
 
+**Ready for more? Head over to the directions for [validating a bag](https://github.com/dinahhandel/ndsr-2016-bagit/blob/master/validate-bag.md).**
