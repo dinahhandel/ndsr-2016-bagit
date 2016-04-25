@@ -10,8 +10,8 @@ Download the [zip package](https://github.com/kgrons/ndsr-2016-bagit/blob/master
 ## 2. Install BagIt (Python build)
 Read and follow the [install directions](https://github.com/kgrons/ndsr-2016-bagit/blob/master/install-directions.md) so that you have BagIt ready to work.
 
-Operating system: Mac OS X preferred, but there may be some alternate support for Linux & Windows
-Software: Installation of BagIt library and supporting utilities/software will be required in-advance.
+- Operating system: Mac OS X preferred, but there may be some alternate support for Linux & Windows
+- Software: Installation of BagIt library and supporting utilities/software will be required in-advance.
 
 ## 3. Ask Questions!
 Having trouble with the sample materials or installing BagIt? Click the `Issues` tab in GitHub and click the [New Issue](https://github.com/kgrons/ndsr-2016-bagit/issues/new) button.
